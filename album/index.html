@@ -32,26 +32,36 @@
           font-size: 3.5rem;
         }
       }
+
+      .nav-tabs .nav-item .nav-link
+      {
+        color: #FFF;
+      }
+
+      .nav-tabs .nav-item .nav-link.active
+      {
+        color: #000000;
+      }
     </style>
 
 
   </head>
   <body>
 
-<header class="bg-success ">
-  <div class=" container justify-content-center">
-    <h4 class="py-4 text-white">Portfolio Ziegeltrum Joffrey</h4>
+<header class="sticky-top" style="background-color: #1B4229;">
+  <div class="container justify-content-center">
+    <h4 class="row col-lg-4 py-lg-4 text-white">Ziegeltrum Joffrey</h4>
   </div>
-  <div class="navbar navbar-dark bg-success py-2 ">
-    <div class="container justify-content-center">
+  <div class="navbar navbar-dark py-2">
+    <div class="container justify-content-center" style="background-color: #1B4229;">
       <nav>
         <div>
           <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item"><a class="nav-link text-dark" href="#Acceuil_tab" data-bs-toggle="tab">Accueil</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#Engine_tab" data-bs-toggle="tab">Moteur</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#GD_tab" data-bs-toggle="tab">Conception de jeu/niveau</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#Web_tab" data-bs-toggle="tab">Web</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#CV_tab" data-bs-toggle="tab">Curriculum Vitae</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Acceuil_tab" data-bs-toggle="tab">Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Engine_tab" data-bs-toggle="tab">Moteur</a></li>
+            <li class="nav-item"><a class="nav-link" href="#GD_tab" data-bs-toggle="tab">Conception de jeu/niveau</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Web_tab" data-bs-toggle="tab">Web</a></li>
+            <li class="nav-item"><a class="nav-link" href="#CV_tab" data-bs-toggle="tab">Curriculum Vitae</a></li>
           </ul>
       </div>
     </nav>
@@ -71,7 +81,7 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <img width="50%" src="../assets/Pic2.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="50%" height="50%"/></img>
+            <img style="border-radius: 25% 10%;" width="50%" src="../assets/Pic2.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="50%" height="50%"/></img>
             <p></p>
             <h2 class="fw-bold text-white">Bienvenue sur mon portfolio!</h2>
             <p class="text-white">Vous trouverez ici divers travaux réalisés dans le cadre de mes études. Ceux-ci sont l'aboutissement de mon apprentissage en programmation, utilisation de moteur de jeux et surtout le Game Design et le Level Design. Deux domaines don j'ai fait ma spécialité.</p>
@@ -260,10 +270,8 @@
           <div class="row">
             <div class="col-md-9">
               <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" src="../assets/PDFLogo.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
+                <img class="bd-placeholder-img card-img-top" width="100%" src="../assets/CoverTara.PNG" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/></img>
                 <div class="card-body">
-                  <p class="card-text"><h5>Game Design document.</h5></p>
-                  <p class="card-text"><h3>The tale of Tara's fall</h3></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary" onclick='open_Tara()'>Voir</button>
@@ -363,7 +371,7 @@
 
           <div class=" col-lg-8 col-md-10 mx-auto container">
             <h2 class="fw-bold text-white">Formations</h2>
-            <h4 class="fw-light text-white">Master: chef de projets informatique & multimédia</h4>
+            <h4 class="fw-light text-white">Mastère: chef de projets informatique & multimédia</h4>
             <h5 class="fw-light text-white">Ludus Académie, Septembre 2021-Octobre 2023</h5>
             <br>
             <h4 class="fw-light text-white">Bachelor: Dévellopeur de jeux vidéo</h4>
@@ -399,7 +407,7 @@
             <ul class="">
               <li class="text-white">Anglais (B2): à l'aise à l'oral et à l'écrit.</li>
               <li class="text-white">Allemand (A1): maîtrise les bases à l'oral et à l'écrit.</li>
-              <li class="text-white">Allemand (A1): connaissances minimes à l'oral et à l'écrit.</li>
+              <li class="text-white">Norvégien (A1): connaissances minimes à l'oral et à l'écrit.</li>
             </ul>
             <h5 class="fw-light text-white">Game Design</h5>
             <ul class="">
@@ -420,7 +428,7 @@
 
 </main>
 
-<footer class="text-muted py-5 bg-success" >
+<footer class="text-muted py-5" style="background-color: #1B4229;">
   <div class="col-sm-4 offset-md-1 py-4">
     <h4 class="text-white">Contact</h4>
     <ul class="list-unstyled">
